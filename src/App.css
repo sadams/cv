@@ -1,0 +1,144 @@
+@import url('fonts.css');
+
+:root {
+  /*--orange: #ff9c00;*/
+  --orange: #ff8928;
+  --beige: #c89b81;
+  --light-beige: #f2d3c9;
+  --spacing-size: 8px;
+  --yellow: #ffde6d;
+  /*--blue: #4cabff;*/
+  /*--blue: #5aaafe;*/
+  /*--blue: #1ecaff;*/
+  --blue: #7ee1ff;
+  --purple: #ce9cce;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: var(--orange);
+  font-family: 'Oswald', sans-serif;
+  padding: 30px;
+}
+
+a {
+  color: var(--blue);
+}
+
+a:visited {
+  color: var(--purple);
+}
+
+content {
+  padding: 10px;
+  margin: 30px;
+}
+
+.upper,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--yellow);
+}
+
+app {
+  display: flex;
+}
+
+.tech-icon {
+  height: 20px;
+  width: 20px;
+  padding-right: 4px;
+}
+
+.recharts-tooltip-wrapper .tech-icon {
+  height: 40px;
+  width: 40px;
+}
+.circlechart-tooltip {
+  background: black;
+  opacity: 0.9;
+  padding: 5px;
+  --border: 5px;
+  --border-radius: 5px;
+  border-color: var(--orange);
+  border-width: var(--border);
+  border-radius: var(--border-radius);
+  border-style: solid;
+}
+.recharts-legend-item-text {
+  font-size: 80%;
+}
+
+lcars-list-item {
+  display: flex;
+  text-align: right;
+  font-size: 23px;
+}
+
+.active lcars-list-num {
+  color: var(--orange);
+}
+
+.active lcars-list-left, .active lcars-list-item-content {
+  background-color: var(--orange);
+  color: white;
+}
+
+lcars-list-left {
+  padding-left: 31px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: var(--blue);
+}
+
+lcars-list-num {
+  background-color: black;
+  line-height:100%;
+  color: var(--blue);
+  padding: 0px 3px;
+  font-size: 45px;
+  width: 65px;
+}
+
+lcars-list-item-content {
+  background-color: var(--blue);
+  padding: 5px 15px;
+  color: black;
+  flex-grow: 1;
+}
+lcars-selected {
+  margin-left: var(--spacing-size);
+  /* why padding? just because css hates empty elements  :( */
+  padding-left: 20px;
+}
+.active lcars-selected {
+  background-color: var(--orange);
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  width: 300px;
+  display: block;
+  margin-top: var(--spacing-size);
+}
