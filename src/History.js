@@ -11,7 +11,7 @@ export default () => (
     </p>
     <p>
       From 2011 until March 2017 I worked at <a href="https://www.ensighten.com/" target="_blank">Ensighten</a> in
-      various role from Senior Engineer to Technical Directory.
+      various role from Senior Engineer to Technical Director.
       During my time at Ensighten I was lucky enough to be able to build a great team and work under some great managers.
       The team and I built very high-performance marketing/advertising/analytics SaaS platforms and accompanying frontends.
     </p>

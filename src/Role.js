@@ -17,8 +17,9 @@ export default () => (
       </p>
       <ul>
         <li>Team Lead</li>
-        <li>Software Manager</li>
+        <li>Technical Lead</li>
         <li>Engineering Lead</li>
+        <li>Software Manager</li>
         <li>Technical Director</li>
       </ul>
       <p>
