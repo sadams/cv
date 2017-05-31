@@ -29,8 +29,5 @@ export default () => (
       <li>A high-performance <a href="https://www.ensighten.com/products/pulse/" target="_blank">data-collection/analytics platform</a>.</li>
       <li>An Attribution system (which interestingly <a href="http://searchengineland.com/google-attribution-search-marketers-need-know-275751" target="_blank">google have recently launched</a>).</li>
     </ul>
-    <p>
-
-    </p>
   </history>
 )
