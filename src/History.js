@@ -5,7 +5,7 @@ export default () => (
   <history>
     <h1>History</h1>
     <p>
-      In 2006 I graduated from the University of Sussex with a degree in Psychology BSc. (no, I don't have CS degree).
+      In 2006 I graduated from the University of Sussex with a degree in Psychology BSc. (no, I don't have a CS degree).
       During university a fascination with computing, and specifically web development, grew into a real passion.
       Since getting my first job in software in 2006 I have worked in engineering ever since.
     </p>

@@ -8,8 +8,8 @@ export default () => (
     <h2>How's it built?</h2>
     <ol>
       <li>
-      <a href="https://github.com/sadams/cv">Frontend code (react)</a> is
-      built and pushed to <a href="https://github.com/sadams/cv/releases">github
+      <a href="https://github.com/sadams/cv">Frontend code (React)</a> is
+      built and pushed to <a href="https://github.com/sadams/cv/releases">GitHub
       as a 'release'</a>.
       </li>
       <li>
@@ -18,7 +18,7 @@ export default () => (
       </li>
       <li>
       <a href="https://github.com/sadams/cv-ansible">Ansible</a> pulls the
-      release package from github to the AWS instance and serves the files
+      release package from GitHub to the AWS instance and serves the files
       statically.
       </li>
     </ol>
@@ -27,8 +27,8 @@ export default () => (
     <blockquote>
       <ul>
         <li>... use a PaaS service for an easier life?</li>
-        <li>... use s3 buckets instead of nginx to serve static files?</li>
-        <li>... use the AWS GUI - it would have been much easier than terraform!</li>
+        <li>... use S3 buckets instead of NGINX to serve static files?</li>
+        <li>... use the AWS GUI - it would have been much easier than Terraform!</li>
         <li>... stop wasting time and use Word like everyone else!</li>
         <li>... make a better UI!? </li>
       </ul>
@@ -49,14 +49,14 @@ export default () => (
 
     <h2>"yakspa.com"? what's a "yakspa"?</h2>
     <p>
-      <i><a href="http://whatis.techtarget.com/definition/yak-shaving" target="_blank">Yakshaving
+      <i><a href="http://whatis.techtarget.com/definition/yak-shaving" target="_blank">Yak Shaving
       </a></i> : The process of engineering through which many extraneous
       tasks must be completed to achieve a seemingly simple goal.
-      Often synonymous with 'overengineering', although sometimes yakshaving is unavoidable to achieve a goal.
+      Often synonymous with 'over-engineering', although sometimes yak shaving is unavoidable to achieve a goal.
     </p>
     <p>
-      Since this CV is so clearly the result of serious 'yakshaving',
-      the name 'Yak Spa' seemed appropriate; more than just shaving a Yak,
+      Since this CV is so clearly the result of serious 'yak shaving',
+      the name 'Yak Spa' seemed appropriate; more than just shaving a yak,
         I have taken it to a spa.
         <br></br>
         (Contrary to the rumours, choosing 'yakspa.com' was in no way driven by
@@ -70,13 +70,13 @@ export default () => (
     No, I'm no designer.
     </p>
 
-    <h2>Why is it so overengineered?</h2>
+    <h2>Why is it so over-engineered?</h2>
     <p>
     ... because it's way more fun than a traditional CV.
     Besides, learning to write a Word doc using a text editor would have only taught me things I would need to forget.
     </p>
 
     <h2>Something is very wrong...</h2>
-    <p>Please feel free to report issues on <a href="https://github.com/sadams/cv" target="_blank">github</a>.</p>
+    <p>Please feel free to report issues on <a href="https://github.com/sadams/cv" target="_blank">GitHub</a>.</p>
   </about>
 )
