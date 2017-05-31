@@ -5,23 +5,22 @@ const style = {
   top: 0,
   left: 350,
   lineHeight: '24px'
-};
+}
 const CustomTooltip  = React.createClass({
   render() {
-    const { active } = this.props;
+    const { active } = this.props
     if (active) {
-      const { payload } = this.props;
+      const [ item ] = this.props.payload
       return (
         <div className="circlechart-tooltip">
-            <p className="label">{payload[0].name}</p>
-            <p className="description">{payload[0].description}</p>
+          <p className="label">{item.name}</p>
         </div>
-      );
+      )
     }
 
-    return null;
+    return null
   }
-});
+})
 
 export default React.createClass({
   render () {
@@ -47,6 +46,6 @@ export default React.createClass({
         <Legend iconSize={15} width={120} height={140} layout='vertical' verticalAlign='middle' wrapperStyle={style}/>
         <Tooltip content={<CustomTooltip/>}/>
       </RadialBarChart>
-    );
+    )
   }
 })

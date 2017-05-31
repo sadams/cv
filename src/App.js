@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import {
   BrowserRouter as Router,
   Route,
   NavLink
 } from 'react-router-dom'
-import './App.css';
+import './App.css'
 import Contact from './Contact.js'
 import Skills from './Skills.js'
 import About from './About.js'
@@ -72,8 +72,8 @@ class App extends Component {
       <div className="App">
         <Nav/>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
