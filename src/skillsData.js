@@ -48,7 +48,7 @@ export default [
        More info in the <a href="#React">react section</a>.
     </p>
     <p>
-      ngMeh
+      <code>ngMeh</code>
     </p>
   </skill-description>},
   {name: 'Cassandra', percent: 50, fill: '#1387b1', icon: '/cassandra-icon.png', description: <skill-description>
@@ -125,7 +125,7 @@ export default [
     <p>
       I haven't written any large projects and have only been using it on and
       off for about a year.
-      The biggest thing i have done is probably
+      The biggest thing I have done is probably
       this <a href="https://github.com/sadams/ansible-module-cassandra" target="_blank">Cassandra Ansible module</a>.
     </p>
     <p>Who needs a switch statement anyway?</p>
@@ -135,7 +135,7 @@ export default [
     <p>
       I can read it fine and write it poorly.
       I find the strict typing and the generics/lambdas a bit clunky compared to
-      JS (👑 of languages), but I do respect how it encourages a level
+      JS (👑 &nbsp;of languages), but I do respect how it encourages a level
       of consistency that is easy to gloss over in scripting languages.
     </p>
     <p>
@@ -177,7 +177,17 @@ export default [
     </p>
 
   </skill-description>},
-  {name: 'Tea Making', percent: 90, fill: '#868585', icon: '/tea-icon.svg', description: <skill-description>
+  {name: 'MySQL', percent: 60, fill: '#00618a', icon: '/mysql-icon.svg', description: <skill-description>
+    <p>
+      I have been using MySQL on and off since I started in software
+      development (although most recently Cassandra has taken over my life).
+    </p>
+    <p>
+      I can still write a decent complex query and design good relational schemas,
+      but I'm no MySQL expert on the more advanced topics.
+    </p>
+  </skill-description>},
+    {name: 'Tea Making', percent: 90, fill: '#868585', icon: '/tea-icon.svg', description: <skill-description>
     <p>
       What can I say - it's all about patience ☕️.
     </p>

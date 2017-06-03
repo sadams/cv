@@ -5,9 +5,24 @@ export default () => (
   <role>
     <h1>Role</h1>
     <div>
+      <p>
+        I have been leading/managing teams on and off for 7 years, while still being a
+        hands on engineer (see <a href="#History">History</a> for more information).
+      </p>
+      <p>
+        I love the engineering part of my job (and hope I never have to give it up completely),
+        but I also take great satisfaction in building a great team and helping
+        them to work effectively, both within the team and with the wider business.
+      </p>
+      <p>
+        I'm passionate about Agile principles but believe that the team should
+        decide how they actually function internally.
+        E.g. selecting Kanban or Scrum should be up to the individual team.
+      </p>
+
       <p>In a nutshell:</p>
       <blockquote>
-        I want to be in a position to help a great team write the best platform
+        I want to be in a position to help a great team build the best platform
         that the consumer actually needs.
       </blockquote>
       <p>
@@ -21,15 +36,17 @@ export default () => (
         <li>Engineering Lead</li>
         <li>Software Manager</li>
         <li>Technical Director</li>
+        <li>Senior Engineer</li>
+        <li><strike>VP of Ninja Rockstart Hero Unicorning</strike> (no one needs this)</li>
       </ul>
       <p>
         ... but realistically the title doesn't really matter.
         It's the people that matter and will shape everything else.
-        No matter how successful a company is, if they can't be said to
+        No matter how successful a company is, if they don't actively
         foster a collaborative and respectful culture at every level of the
         organisation, then it's not for me.
         (Needless to say, there are certain 'ride sharing' companies I won't be
-        calling up about a position.)
+        calling.)
       </p>
     </div>
   </role>

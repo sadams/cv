@@ -147,9 +147,3 @@ role blockquote {
   font-size: 200%;
   font-style: italic;
 }
-
-.quietly {
-  font-size: 80%;
-  font-style: italic;
-  opacity: 0.5;
-}
