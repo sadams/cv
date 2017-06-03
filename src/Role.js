@@ -7,7 +7,7 @@ export default () => (
     <div>
       <p>
         I have been leading/managing teams on and off for 7 years, while still being a
-        hands on engineer (see <a href="#History">History</a> for more information).
+        hands on engineer (see <a href="/history">History</a> for more information).
       </p>
       <p>
         I love the engineering part of my job (and hope I never have to give it up completely),
